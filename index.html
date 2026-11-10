@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uma Carta Para Evlásia ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <main>
+
+    <!-- Ecrã inicial -->
+    <section id="intro" class="screen active">
+      <p class="intro-top">Tenho algo especial para ti...</p>
+
+      <div class="envelope-wrapper">
+        <div class="envelope" id="envelope" role="button" aria-label="Abrir envelope">
+          <div class="envelope-back"></div>
+          <div class="paper"></div>
+          <div class="envelope-front"></div>
+          <div class="flap"></div>
+          <div class="seal"><span>❤</span></div>
+        </div>
+      </div>
+
+      <p class="intro-bottom">Uma cartinha para uma pessoa muito especial ❤️</p>
+
+      <button id="openBtn" class="btn" type="button">Abrir minha cartinha</button>
+    </section>
+
+    <!-- Carta -->
+    <section id="letter" class="screen">
+      <article class="letter" id="letterCard">
+
+        <h1 class="letter-title stagger">Para a minha Evlásia ❤️</h1>
+        <div class="divider stagger"></div>
+
+        <div class="letter-body">
+          <p class="stagger">Meu amor,</p>
+
+          <p class="stagger">Hoje é o teu dia, e eu não queria deixar esta data passar sem te dedicar algumas palavras.</p>
+
+          <p class="stagger">Quero que saibas que és uma pessoa muito especial. Espero que este novo capítulo da tua vida seja cheio de conquistas, sorrisos, oportunidades e momentos que guardes com carinho.</p>
+
+          <p class="stagger">Que nunca te faltem forças para perseguir os teus sonhos, coragem para enfrentar os desafios e motivos para continuares a sorrir.</p>
+
+          <p class="stagger">Não precisas de ser perfeita, não precisas de ter tudo resolvido. Continua simplesmente a ser tu, com a tua essência, os teus sonhos e essa maneira tão tua de tornar os dias especiais.</p>
+
+          <p class="stagger">Hoje quero celebrar a tua vida, a pessoa que és e tudo aquilo que ainda vais conquistar.</p>
+
+          <p class="stagger">Feliz aniversário, meu amor! Que a vida seja tão bonita contigo quanto desejo que sejam os teus dias.</p>
+        </div>
+
+        <p class="signature stagger">
+          Com muito carinho,<br>
+          <span>Giovany ❤️</span>
+        </p>
+
+        <div class="final-heart stagger">
+          <span>❤</span>
+        </div>
+
+        <div class="actions stagger">
+          <button id="surpriseBtn" class="btn" type="button">Uma última surpresa</button>
+
+          <p id="surpriseText" class="surprise" hidden>
+            Se pudesse desejar-te uma coisa hoje, seria que nunca te faltasse felicidade. Porque mereces viver coisas lindas. ❤️
+          </p>
+
+          <button id="resetBtn" class="btn btn-ghost" type="button">Reiniciar a carta</button>
+        </div>
+
+      </article>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
